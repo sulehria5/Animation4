@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body{
+    margin: 0;
+  }
+  h2{
+    color: #fff;
+  }
+  a{
+    text-decoration:none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+  }
+  section{
+    height: 100vh;
+    background: #9575CD;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+  section:nth-child(2){
+    background:#E57373 ;
+  }
+  section:nth-child(3){
+    background: #4DB6AC;
+  }
+  i{
+    font-size: 3em;
+    color: #333;
+    animation:jello 1s ease infinite;
+  }
+  
+  
